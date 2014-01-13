@@ -1,0 +1,14 @@
+﻿@{
+    ViewBag.Title = "Edit";
+
+
+    var items = new string[] {"one", "two", "three"};
+
+}    
+<h2>Edit</h2>
+<h2>Listing @items.Length items</h2>
+<ul>
+    @foreach (var item in items) {
+        <li> The items in the list are @item</li>
+    }
+</ul>
